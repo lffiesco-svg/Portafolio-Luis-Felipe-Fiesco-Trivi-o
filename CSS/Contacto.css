@@ -23,6 +23,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.formulario{
+    flex: 1;
+}
+.mapa{
+    flex: 1;
+    max-width: 400px;
+}
+@media (max-width: 768px) {
+    .contacto-container {
+      flex-direction: column;
+    }
+  }
 .container-header {
     background: black;
     position: fixed;
