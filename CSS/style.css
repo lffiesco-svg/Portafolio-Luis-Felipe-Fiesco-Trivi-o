@@ -40,7 +40,7 @@ body{
 }
 
 .container-header header .logo a{
-    font-family: 'Righteos';
+    font-family: 'Righteous', cursive;
     font-size: 36px;
     color: #1cb698;
     text-decoration: none;
@@ -62,21 +62,6 @@ body{
 
 .container-header header nav ul li a:hover{
     color: #1cb698;
-}
-@media (max-width:768px){
-    #menu-toggle{
-        display: none;
-    }
-}
-.menu-icon{
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    color:#1cb698;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 300;
 }
 #menu-toggle{
     display: none;
@@ -268,7 +253,7 @@ footer .redes a{
     #menu-toggle{
         display: none;
     }
-}
+
 .menu-icon{
     display: block;
     font-size: 28px;
@@ -303,4 +288,5 @@ footer .redes a{
     padding: 10px 15px;
     display: block;
     text-align: left;
+}
 }

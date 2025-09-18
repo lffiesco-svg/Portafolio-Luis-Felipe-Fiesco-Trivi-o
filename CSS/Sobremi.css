@@ -66,21 +66,7 @@ html {
 .container-header header nav ul li a:hover {
     color: #1cb698;
 }
-@media (max-width:768px){
-    #menu-toggle{
-        display: none;
-    }
-}
-.menu-icon{
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    color:#1cb698;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 300;
-}
+
 #menu-toggle{
     display: none;
 }
@@ -219,7 +205,7 @@ footer .redes a:hover {
     #menu-toggle{
         display: none;
     }
-}
+
 .menu-icon{
     display: block;
     font-size: 28px;
@@ -254,6 +240,7 @@ footer .redes a:hover {
     padding: 10px 15px;
     display: block;
     text-align: left;
+}
 }
 @media (max-width:768px){
     .container-header header{

@@ -312,7 +312,7 @@ footer .redes a:hover {
     #menu-toggle{
         display: none;
     }
-}
+
 .menu-icon{
     display: block;
     font-size: 28px;
@@ -347,6 +347,7 @@ footer .redes a:hover {
     padding: 10px 15px;
     display: block;
     text-align: left;
+}
 }
 @media screen and (max-width:768px){
     .container-header header{
@@ -398,3 +399,4 @@ footer .redes a{
     margin: 8px;
 }
 }
+

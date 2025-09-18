@@ -220,7 +220,7 @@ footer .redes a:hover {
     #menu-toggle{
         display: none;
     }
-}
+
 .menu-icon{
     display: block;
     font-size: 28px;
@@ -247,12 +247,62 @@ footer .redes a:hover {
 #menu-toggle:checked ~.nav ul{
     display: flex;
 }
+
 .container-header header .nav ul li{
     margin: 5px 0;
 }
-.container-header header .nav ul li a{
-    color: #fff;
-    padding: 10px 15px;
-    display: block;
-    text-align: left;
+}
+@media (max-width:768px){
+    .container-header header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+.container-header header ul{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.container-header header nav ul li{
+    margin: 10px 0;
+}
+.curriculum h2{
+        font-size: 32px;
+    }
+
+.curriculum .fila{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+.curriculum .fila .col{
+    flex: 1;
+    max-width: 450px;
+    padding: 0 20px;
+}
+.curriculum .col{
+    width: 100%;
+}
+.conectori, .conectord,
+.circuloi, .circulod{
+    display: none;
+}
+.curriculum .item h4{
+    font-size: 18px;
+}
+.curriculum .item .fecha{
+    font-size: 13px;
+}
+.curriculum .item p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+footer .redes a{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    margin: 8px;
+}
 }
